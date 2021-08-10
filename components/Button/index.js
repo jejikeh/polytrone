@@ -4,8 +4,7 @@ import styles from "./Button.module.scss";
 
 export const Button = ({children,disabled,color,onclick,className}) => {
     const colors = {
-        green: "green",
-        gray: "gray",
+        green: styles.green,
     };
     return(
         <button 
